@@ -1,0 +1,8 @@
+Query: HHH
+Result: Location: GP-HHH Road, United States
+Coordinates: Lat 40.9896318, Lon -110.289569
+
+Query: Manila
+Result: Location: Manila, Philippines
+Coordinates: Lat 14.5904492, Lon 120.9803621
+
