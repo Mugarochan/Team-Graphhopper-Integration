@@ -38,6 +38,12 @@ def geocode_address(address):
         print(f"Error: {e}")
         save_search_history(address, f"Error: {e}")  # Log the error message to the history file
 
+# Main loop to ask the user for input
 if __name__ == "__main__":
-    user_input = input("Enter a location: ")
-    geocode_address(user_input)
+    while True:
+        user_input = input("Enter a location (or type 'exit' to quit): ")
+        if user_input.lower() == 'exit':
+            print("Exiting the program.")
+            break
+        else:
+            geocode_address(user_input)
